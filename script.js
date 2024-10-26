@@ -4,6 +4,7 @@ let currentFontSize = 16;
 /**
  * Togglar hamburgermenyn och ändrar headerns höjd.
  * Växlar även ikonen mellan en meny-ikon och ett stängningskryss.
+ * @function toggleMenu
  */
 function toggleMenu() {
   const header = document.querySelector('header');
@@ -28,6 +29,7 @@ function toggleMenu() {
 /**
  * Ökar fontstorleken på hela sidan.
  * Fontstorleken ökas stegvis med 2px varje gång funktionen anropas.
+ * @function increaseFontSize
  */
 function increaseFontSize() {
   const body = document.querySelector('body');
